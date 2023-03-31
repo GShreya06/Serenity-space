@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 
 .container {
@@ -17,7 +18,7 @@ body {
     height: 80%;
     /* margin: 0 auto; */
     width: 250px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     padding: 50px 130px;
     margin: 30px;
     ;
@@ -40,7 +41,7 @@ body {
     position: relative;
     ;
     border: none;
-    background-color: #fff;
+    /* background-color: #000000; */
     border-radius: 80vh;
     cursor: pointer;
 }
@@ -51,6 +52,7 @@ body {
     margin-inline: -12px;
     margin-left: 2px;
     align-items: self-end;
+    color: black;
 }
 
 .or>p {
@@ -59,7 +61,7 @@ body {
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
     left: 6px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .apple-btn>span {
@@ -69,9 +71,9 @@ body {
 }
 
 .forgot-btn {
-    background-color: black;
-    color: white;
-    border-color: white;
+    /* background-color: rgb(0, 0, 0); */
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
     border: solid 1px gray;
 }
 
@@ -89,12 +91,12 @@ footer a {
     padding: 17px 6px;
     width: 255px;
     border: solid gray 1px;
-    background-color: black;
+    /* background-color: black; */
     border-radius: 4px;
     text-align: start;
 }
 
 h1 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
