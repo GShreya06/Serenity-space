@@ -24,12 +24,15 @@
   cursor: pointer;
   user-select: none;
 
+ 
 
 }
-
 :last-child {
   margin-bottom: 0;
 }
+
+
+
 
 .card--next {
   z-index: 5;
